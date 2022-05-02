@@ -1,0 +1,270 @@
+*,
+::after,
+::before {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Serif:wght@500&display=swap');
+
+body {
+    background: #FCFCFE;
+    font-family: 'Inter';
+
+}
+
+/* Utility Class */
+.container {
+    width: 98%;
+    margin: auto;
+}
+
+.text-light {
+    color: #707D85;
+}
+
+.text-dark {
+    color: #2A373F;
+}
+
+.text-iris {
+    color: #7879F1;
+}
+
+ul {
+    list-style: none;
+}
+.flex {
+    display: flex;
+}
+button{
+    outline: none;
+}
+
+/* Navbar */
+.main-grid {
+    display: grid;
+    grid-template-columns: 25% 50% 24%;
+    margin-top: 3rem;
+}
+
+.navbar-container {
+    background: #fff;
+    padding: 1.5rem 0rem;
+    box-shadow: 0px 5px 10px 0px rgb(185, 185, 185);
+}
+
+.navbar-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-list li {
+    margin-left: 1rem;
+}
+
+.searchbtn {
+    border: solid #707D85 1px;
+    border-radius: 2rem;
+    padding: 0.2rem;
+}
+
+.searchbtn input {
+    width: 80%;
+    border: none;
+    outline: none;
+    padding: 2px;
+    border-radius: 0.5rem;
+}
+
+.searchbtn button {
+    background: #fff;
+    color: #FFA300;
+    border: none;
+    box-shadow: 0px 5px 10px 0px rgb(185, 185, 185);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    outline: none;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    color: #112634;
+    margin-left: 2rem;
+}
+.flex-item {
+    margin-left: 1.5rem;
+    align-items: center;
+
+}
+
+.bar {
+    border-radius: 2rem;
+    width: 80px;
+    height: 15px;
+    background: #F0F0F0;
+}
+
+.progess {
+    height: 100%;
+    width: 80%;
+    background: linear-gradient(180deg, #FFD893 0%, #FFA300 100%);
+    border-radius: 2rem;
+}
+
+.credits {
+    font-size: 0.8rem;
+}
+
+.credits i {
+    color: #FFA300;
+}
+
+.upgrade {
+    padding: 0.5rem;
+    background: linear-gradient(180deg, #FFD893 0%, #FFA300 100%);
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+
+}
+.userinfo{
+    display: flex;
+}
+
+/* Card */
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-column-gap: 0.5rem;
+}
+
+.share {
+    display: flex;
+    justify-content: space-between;
+    color: #5D5FEF;
+    font-size: 0.8rem;
+}
+
+.share ul {
+    display: flex;
+}
+
+.share ul li {
+    margin-left: 0.5rem;
+}
+
+.card-subtitle {
+    color: #6E798C;
+}
+
+/* filterbtn */
+
+.filterbtn {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 0.5rem;
+}
+
+.filterbtn button {
+    padding: 0.2rem 1rem;
+    border: none;
+    border-radius: 1rem;
+    background: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.filterbtn button:hover {
+    background: linear-gradient(180deg, #FFD893 0%, #FFA300 100%);
+
+}
+
+/* Right Side Navbar */
+.navbtn {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 2rem 0.5rem 0.5rem;
+    margin-bottom: 1rem;
+    color: #2A373F;
+}
+
+.navbtn:hover {
+    background: #F5F5FE;
+    color: #5D5FEF;
+    border-radius: 0rem 2rem 2rem 0rem;
+    width: 80%;
+    
+}
+
+hr {
+    color: rgb(200, 198, 198);
+    width: 90%;
+}
+
+/* left side navbar */
+.title {
+    padding: 0.5rem;
+    color: #2A373F;
+    font-weight: 600;
+}
+
+.recent-search-card {
+    background: #fff;
+    padding: 1rem 0rem;
+    box-shadow: 0px 5px 10px 0px rgb(185, 185, 185);
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+}
+
+.recent-search {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px rgb(200, 198, 198);
+    padding: 0.5rem 0.5rem;
+}
+
+.follow {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px rgb(200, 198, 198);
+    padding: 0.5rem 0.5rem;
+
+}
+
+.follow-btn {
+    border: solid #5D5FEF 1px;
+    border-radius: 1rem;
+    background: #fff;
+    padding: 0.4rem 1rem;
+    margin-right: 0.5rem;
+}
+
+.show-more {
+    border: none;
+    background: none;
+    margin-left: 0.8rem;
+    outline: none;
+}
+
+.subtopic {
+    font-size: 1rem;
+}
